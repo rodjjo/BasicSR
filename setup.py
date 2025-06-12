@@ -74,9 +74,7 @@ version_info = ({})
 
 
 def get_version():
-    with open(version_file, 'r') as f:
-        exec(compile(f.read(), version_file, 'exec'))
-    return locals()['__version__']
+    return "0.1.0"
 
 
 def make_cuda_ext(name, module, sources, sources_cuda=None):
