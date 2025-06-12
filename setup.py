@@ -74,7 +74,7 @@ version_info = ({})
 
 
 def get_version():
-    return "0.1.0"
+    return "1.4.2"
 
 
 def make_cuda_ext(name, module, sources, sources_cuda=None):
